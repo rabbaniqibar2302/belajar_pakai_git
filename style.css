@@ -1,3 +1,17 @@
-body{
-    background-color: black;
+@media screen and (max-width:1000px) {
+    .cob{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .cob{
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+    }
+    
 }
